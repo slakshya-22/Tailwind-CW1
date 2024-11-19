@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="">
+    <div class="my-5 shadow w-2/4 mx-5">
+        <div class="w-4/4 h-20 bg-black p-3">
+            <div class="">
+                <h1 class="text-neutral-50 text-center">Retro Shoe</h1>
+                <h4 class="text-neutral-50 text-center">$89.00 <span class="text-teal-400">IN STOCK</span></h4>
+            </div>
+            <div class="w-36 mx-10 shadow-black">
+                <img src="shoes.jpg" class="w-36" alt="">
+            </div>
+        </div>
+        <div class="w-4/4 h-40 bg-white mx-4 my-0">
+            <div class="float-right	my-5 mx-10">
+                <div>
+                    <button class="bg-black text-neutral-50 p-2 shadow-red-950	mx-2">XS</button>
+                    <button class="p-2 mx-2">S</button>
+                    <button class="p-2 mx-2">M</button>               
+                    <button class="p-2 mx-2">L</button>
+                    <button class="p-2 mx-2">XL</button>
+                </div>
+                <div>
+                    <button class="bg-teal-400 border-black border-2 p-2 my-2 mx-1">BUY NOW</button>
+                    <button class="border-black border-2 p-2 my-2 mx-1">ADD TO BAG</button>
+                    <i class="fa-solid fa-heart mx-2"></i>
+                </div>
+                <span class="text-slate-500">Free shopping on all continental US orders.</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
